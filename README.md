@@ -70,7 +70,7 @@ func main() {
 ```
 ### Conclusion
 
-As you can see "functional core" means pure functions and move what changes to the edges of the application. It's a bit similar to the hexagonal pattern.
+As you can see "functional core" are functions. And we IO, logging and error handling to the edges of the application.
 
 - **Functional Core** (`processTransactions` function):
 This function is pure; it simply takes the initial balance and a slice of transactions, then iterates over them to compute and return the final balance. There are no side effects—nothing is printed or logged within this function.
