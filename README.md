@@ -70,7 +70,7 @@ func main() {
 ```
 ### Conclusion
 
-As you can see "functional core" just mean pure functions. That's it. And our we should aim for that in our business logic layer. 
+As you can see "functional core" means pure functions and move what changes to the edges of the application. It's a bit similar to the hexagonal pattern.
 
 - **Functional Core** (`processTransactions` function):
 This function is pure; it simply takes the initial balance and a slice of transactions, then iterates over them to compute and return the final balance. There are no side effects—nothing is printed or logged within this function.
