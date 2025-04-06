@@ -70,7 +70,7 @@ func main() {
 ```
 ### Conclusion
 
-As you can see "functional core" are functions. And we IO, logging and error handling to the edges of the application.
+As you can see "functional core" are pure functions. And we IO, logging and error handling to the edges of the application.
 
 - **Functional Core** (`processTransactions` function):
 This function is pure; it simply takes the initial balance and a slice of transactions, then iterates over them to compute and return the final balance. There are no side effects—nothing is printed or logged within this function.
