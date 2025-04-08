@@ -1,5 +1,7 @@
 # Functional Core, Imperative Shell
 
+- [Awesome video by Gary Bernhardt](https://www.destroyallsoftware.com/screencasts/catalog/functional-core-imperative-shell)
+
 In modern software development, separating the pure logic from side-effecting operations can greatly enhance maintainability and testability. One effective architectural pattern that embodies this idea is **Functional Core, Imperative Shell**. In this blog post, we explore what this pattern means, its benefits, and how you can implement it in Golang.
 
 ### What is "Functional Core, Imperative Shell"?
